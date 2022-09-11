@@ -26,9 +26,6 @@ kiwisolver==1.4.2
 libclang==13.0.0
 Markdown==3.3.6
 MarkupSafe==2.1.1
-matplotlib==3.5.1
-nba-api==1.1.11
-numpy==1.22.3
 oauthlib==3.2.0
 opt-einsum==3.3.0
 packaging==21.3
