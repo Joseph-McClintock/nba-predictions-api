@@ -29,7 +29,7 @@ Markdown==3.3.6
 MarkupSafe==2.1.1
 matplotlib==3.5.1
 nba-api==1.1.11
-numpy==1.22.3
+numpy
 oauthlib==3.2.0
 opt-einsum==3.3.0
 packaging==21.3
@@ -49,11 +49,6 @@ scikit-learn==1.1.2
 scipy==1.8.0
 six==1.16.0
 tb-nightly==2.9.0a20220408
-tensorboard==2.8.0
-tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.1
-tensorflow==2.8.0
-tensorflow-io-gcs-filesystem==0.24.0
 termcolor==1.1.0
 tf-estimator-nightly==2.8.0.dev2021122109
 threadpoolctl==3.1.0
