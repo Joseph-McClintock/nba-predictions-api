@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
@@ -6,6 +7,7 @@ import pandas as pd
 
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/teamdata/<picked_season>")
 def getData(picked_season):
